@@ -1,0 +1,2 @@
+# lab anacrontab: period(days)  delay(min)  job-id  command
+1  0  mere-daily  /home/you/cron-lab/anacron-job.sh

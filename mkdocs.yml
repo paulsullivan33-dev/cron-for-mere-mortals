@@ -1,0 +1,26 @@
+site_name: cron for Mere Mortals
+site_description: Plain-language cron — the five fields, user and system crontabs, the cron environment, output and mail, flock against overlap, anacron for machines that sleep, and debugging the job that did not run, all run for real.
+site_url: https://paulsullivan33-dev.github.io/cron-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Cron Is: what-cron-is.md
+  - Reading the Five Fields: reading-the-fields.md
+  - Special Strings: special-strings.md
+  - Three Kinds of Crontab: three-kinds-of-crontab.md
+  - Managing Your Crontab: managing-your-crontab.md
+  - The Cron Environment: the-cron-environment.md
+  - The Percent Trap: the-percent-trap.md
+  - Output and Mail: output-and-mail.md
+  - Overlap and flock: overlap-and-flock.md
+  - Machines That Sleep: machines-that-sleep.md
+  - Cron or systemd Timers: cron-or-timers.md
+  - When It Didn't Run: when-it-didnt-run.md
+  - Who May Cron: who-may-cron.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md

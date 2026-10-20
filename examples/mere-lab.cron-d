@@ -1,0 +1,2 @@
+# /etc/cron.d/mere-lab - system crontab format: note the extra field, who runs the job.
+* * * * * root echo "cron.d tick $(date -Is)" >> /home/you/cron-lab/out/crond-tick.log

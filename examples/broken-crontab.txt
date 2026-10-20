@@ -1,0 +1,4 @@
+# Two ways to be rejected. crontab(1) answers the first with "bad minute",
+# the second with "bad day-of-week" - then "errors in crontab file, cannot install."
+99 * * * * echo bad minute
+* * * * echo only four fields
